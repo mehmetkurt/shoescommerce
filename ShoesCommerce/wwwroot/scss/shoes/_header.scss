@@ -1,0 +1,102 @@
+@import "../variables";
+
+.header {
+    &-top {
+        padding: 12px 0;
+        color: $white;
+        font-size: 12px;
+        font-weight: 400;
+        background-color: $black;
+
+        &-message {
+            .phone {
+                color: $orange;
+            }
+        }
+
+        .customer-wrapper {
+            gap: 10px;
+
+            .btn {
+                font-size: 12px;
+                font-weight: 500;
+                color: $white;
+                line-height: 16px;
+                padding: 1px 7px;
+
+                &.login {
+                    color: $orange;
+                    border: 2px solid $orange;
+                    border-radius: 2px;
+                }
+
+                &.register {
+                }
+            }
+        }
+
+        .selector-wrapper {
+            gap: 10px;
+
+            .dropdown {
+                > .btn {
+                    background-color: transparent;
+                    border: 0 none;
+                    font-size: 12px;
+                    line-height: 16px;
+                    font-weight: 500;
+                    padding: 0;
+                }
+
+                &-item {
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    &-bottom {
+        nav {
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style-position: inside;
+                list-style-type: none;
+                display: flex;
+                gap: 20px;
+
+                li {
+                    a {
+                        font-size: 13px;
+                        font-weight: 500;
+                        text-decoration: none;
+                        color: $gray-666;
+                        transition: color linear 100ms;
+
+                        &:hover {
+                            color: $orange;
+                        }
+                    }
+
+                    &.selected {
+                        a {
+                            color: $orange;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+
+        .header-tools {
+            a {
+                color: $black;
+
+                &.fill {
+                    color:$orange;
+                }
+            }
+        }
+    }
+}

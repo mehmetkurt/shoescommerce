@@ -1,0 +1,441 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\css\\styles.min.css",
+      "PackagePath": "staticwebassets\\css\\styles.min.css"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_variables-dark.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\tests\\jasmine.js",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\tests\\jasmine.js"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\tests\\mixins\\_color-modes.test.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\tests\\mixins\\_color-modes.test.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\tests\\mixins\\_media-query-color-mode-full.test.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\tests\\mixins\\_media-query-color-mode-full.test.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\tests\\mixins\\_utilities.test.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\tests\\mixins\\_utilities.test.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\tests\\sass-true\\register.js",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\tests\\sass-true\\register.js"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\tests\\sass-true\\runner.js",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\tests\\sass-true\\runner.js"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\tests\\utilities\\_api.test.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\tests\\utilities\\_api.test.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\shoes\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\shoes\\_header.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\shoes\\_shoes.scss",
+      "PackagePath": "staticwebassets\\scss\\shoes\\_shoes.scss"
+    },
+    {
+      "Id": "D:\\projects\\learning\\codeislife\\YK_2\\ShoesCommerce\\ShoesCommerce\\wwwroot\\scss\\styles.scss",
+      "PackagePath": "staticwebassets\\scss\\styles.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ShoesCommerce.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ShoesCommerce.props",
+      "PackagePath": "build\\ShoesCommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ShoesCommerce.props",
+      "PackagePath": "buildMultiTargeting\\ShoesCommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ShoesCommerce.props",
+      "PackagePath": "buildTransitive\\ShoesCommerce.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
