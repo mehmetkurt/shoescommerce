@@ -30,4 +30,8 @@
     <Folder Include="wwwroot\css\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ShoesCommerce.Core\ShoesCommerce.Core.csproj" />
+  </ItemGroup>
+
 </Project>

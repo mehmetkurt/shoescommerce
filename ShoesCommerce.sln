@@ -3,20 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoesCommerce", "ShoesCommerce\ShoesCommerce.csproj", "{08B0CD5B-6544-4519-B312-D61168C97E26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoesCommerce", "ShoesCommerce\ShoesCommerce.csproj", "{08B0CD5B-6544-4519-B312-D61168C97E26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoesCommerce.Core", "ShoesCommerce.Core\ShoesCommerce.Core.csproj", "{B647B98A-1D86-485B-9BD2-D6860EB9CC50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{08B0CD5B-6544-4519-B312-D61168C97E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{08B0CD5B-6544-4519-B312-D61168C97E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08B0CD5B-6544-4519-B312-D61168C97E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08B0CD5B-6544-4519-B312-D61168C97E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B647B98A-1D86-485B-9BD2-D6860EB9CC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B647B98A-1D86-485B-9BD2-D6860EB9CC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B647B98A-1D86-485B-9BD2-D6860EB9CC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B647B98A-1D86-485B-9BD2-D6860EB9CC50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
