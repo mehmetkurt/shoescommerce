@@ -5,6 +5,7 @@ namespace ShoesCommerce.Controllers;
 
 public class CommonController : Controller
 {
+    //[Route("ChangeLanguage/{lang}")]
     public IActionResult ChangeLanguage(string lang)
     {
         var cultureInfo = new CultureInfo(lang);

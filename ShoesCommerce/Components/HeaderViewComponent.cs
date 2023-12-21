@@ -3,28 +3,56 @@ using ShoesCommerce.Models;
 
 namespace ShoesCommerce.Components;
 
-[ViewComponent(Name = "Header")]
 public class HeaderViewComponent : ViewComponent
 {
+    private readonly IConfiguration _configuration;
+    public HeaderViewComponent(IConfiguration configuration)
+    {
+        _configuration = configuration;
+    }
+
     public async Task<IViewComponentResult> InvokeAsync()
     {
-        var model = new List<HeaderViewModel> {
-            new HeaderViewModel {
-                LanguageCode = "tr-TR",
-                LanguageName = "Türkçe"
+        var availableLanguages = new List<Language> {
+            new Language {
+                ShortCode = "tr",
+                Code = "tr-TR",
+                Name = "Türkçe"
             },
-            new HeaderViewModel {
-                LanguageCode = "en-US",
-                LanguageName = "English"
+            new Language {
+                ShortCode= "en",
+                Code = "en-US",
+                Name = "English"
             },
-            new HeaderViewModel {
-                LanguageCode = "ar-SA",
-                LanguageName = "عربي"
+            new Language {
+                ShortCode = "arsa",
+                Code = "ar-SA",
+                Name = "عربي"
             },
-            new HeaderViewModel {
-                LanguageCode = "ru",
-                LanguageName = "Русский"
+            new Language {
+                ShortCode = "ru",
+                Code = "ru",
+                Name = "Русский"
             }
+        };
+        var availableCurrencies = new List<Currency> {
+            new Currency {
+                Symbol = "$",
+                Code = "USD",
+                Name = "USD"
+            },
+            new Currency {
+                Symbol = "₺",
+                Code = "TRY",
+                Name = "TL"
+            }
+        };
+
+        var model = new HeaderViewModel
+        {
+            PhoneNumber = _configuration.GetSection("Shoes")["Phone"] ?? "----",
+            Languages = availableLanguages,
+            Currencies = availableCurrencies
         };
 
         return await Task.FromResult(View(model));

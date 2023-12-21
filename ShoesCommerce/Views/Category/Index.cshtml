@@ -1,1 +1,7 @@
+@model int?
 <h1>Category Sayfası</h1>
+
+@if (Model.HasValue)
+{
+    <p>@Model</p>
+}

@@ -1,4 +1,4 @@
-﻿@model List<HeaderViewModel>
+﻿@model HeaderViewModel
 
 <header class="header">
     <div class="header-top">
@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col d-flex align-items-center">
                     <div class="header-top-message">
-                        Welcome to our store. Call <span class="phone">+78 999 443</span> for support
+                        Welcome to our store. Call <span class="phone">@Model.PhoneNumber</span> for support
                     </div>
                 </div>
                 <div class="col d-flex align-items-center justify-content-end">
@@ -14,27 +14,38 @@
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
-                                @Model.FirstOrDefault(p=> p.LanguageCode == CurrentLanguage.Name)?.LanguageName
+                                @{
+                                    var currentLanguage = Model.Languages.FirstOrDefault(p => p.Code == CurrentLanguage.Name);
+                                }
+
+                                <img src="/img/flags/@(currentLanguage?.ShortCode).svg" class="me-1" width="16" />
+                                @currentLanguage?.Name
                             </button>
                             <ul class="dropdown-menu">
-                                @foreach (var lang in Model.Where(p=> p.LanguageCode != CurrentLanguage.Name))
+                                @foreach (var lang in Model.Languages.Where(p => p.Code != CurrentLanguage.Name))
                                 {
                                     <li>
-                                        <a class="dropdown-item" asp-controller="Common" asp-action="ChangeLanguage"
-                                            asp-route-lang="@lang.LanguageCode">@lang.LanguageName</a>
+                                        <a class="dropdown-item" asp-route="ChangeLanguage" asp-route-lang="@lang.Code">
+                                            <img src="/img/flags/@(lang?.ShortCode).svg" class="me-1" width="16" />
+                                            @lang.Name
+                                        </a>
                                     </li>
                                 }
                             </ul>
                         </div>
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                                    aria-expanded="false">
                                 $ USD
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">₺ - TRY</a></li>
-                                <li><a class="dropdown-item" href="#">£ - GBP</a></li>
-                                <li><a class="dropdown-item" href="#">€ - EUR</a></li>
+                                @foreach (var curr in Model.Currencies)
+                                {
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Common" asp-action="ChangeCurrency"
+                                           asp-route-lang="@curr.Code">@curr.Symbol - @curr.Name</a>
+                                    </li>
+                                }
                             </ul>
                         </div>
                     </div>
@@ -56,14 +67,7 @@
 
                 </div>
                 <div class="col d-flex align-items-center justify-content-center">
-                    <nav>
-                        <ul>
-                            <li class="selected"><a href=#">Homepage</a></li>
-                            <li><a href="#">Daily</a></li>
-                            <li><a href="#">Walking</a></li>
-                            <li><a href="#">Sport</a></li>
-                        </ul>
-                    </nav>
+                    @await Component.InvokeAsync(typeof(NavigationViewComponent))
                 </div>
                 <div class="col d-flex align-items-center justify-content-end gap-3 header-tools">
                     <a href="#" class="search"><i class="bi bi-search"></i></a>
