@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using ShoesCommerce.Data;
 using ShoesCommerce.Models;
 
@@ -15,24 +14,30 @@ public class NavigationViewComponent : ViewComponent
 
     public IViewComponentResult Invoke()
     {
-        var query = _context.Categories
-            .Where(p => p.Published)
-            .OrderBy(p => p.DisplayOrder);
+        //var query = _context.Categories
+        //    .Where(p => p.Published)
+        //    .OrderBy(p => p.DisplayOrder);
 
-        var sqlQuery = query.ToQueryString();
-        
-        var categories = query.ToList();
-        var model = categories.Select(p =>
-        {
-            return new CategoryViewModel
-            {
-                Id = p.Id,
-                ParentId = p.ParentId,
-                Title = p.Title,
-                AlternateText = p.AlternateText
-            };
-        }).ToList();
+        //var categories = query.ToList();
 
-        return View(model);
+        //foreach (var category in categories)
+        //{
+        //    category.Title = category.Title.Replace(" -- mdf", "");
+        //}
+
+        //_context.SaveChanges();
+
+        //var model = categories.Select(p =>
+        //{
+        //    return new CategoryViewModel
+        //    {
+        //        Id = p.Id,
+        //        ParentId = p.ParentId,
+        //        Title = p.Title,
+        //        AlternateText = p.AlternateText
+        //    };
+        //}).ToList();
+
+        return View(new List<CategoryViewModel>());
     }
 }

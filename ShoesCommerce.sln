@@ -7,6 +7,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoesCommerce", "ShoesComme
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoesCommerce.Core", "ShoesCommerce.Core\ShoesCommerce.Core.csproj", "{B647B98A-1D86-485B-9BD2-D6860EB9CC50}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoesCommerce.Data", "ShoesCommerce.Data\ShoesCommerce.Data.csproj", "{574EAFEC-57F6-4BF8-924F-57080C027F27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoesCommerce.Data.Domain", "ShoesCommerce.Data.Domain\ShoesCommerce.Data.Domain.csproj", "{F33D87C0-3D5B-474E-8035-10A1C6682848}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoesCommerce.Models", "ShoesCommerce.Models\ShoesCommerce.Models.csproj", "{88113FC1-FA00-4E2E-B458-B51E2D851232}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoesCommerce.Data.Services", "ShoesCommerce.Data.Services\ShoesCommerce.Data.Services.csproj", "{A3FFF4C2-E74B-4C41-83DF-44631A099B16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoesCommerce.Model.Factories", "ShoesCommerce.Model.Factories\ShoesCommerce.Model.Factories.csproj", "{C8157B22-90B2-4ECD-BA29-DFD0084676B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoesCommerce.Web.Infrastructure", "ShoesCommerce.Web.Infrastructure\ShoesCommerce.Web.Infrastructure.csproj", "{4AE0701A-22F8-4179-8020-E895DD92E1B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +33,35 @@ Global
 		{B647B98A-1D86-485B-9BD2-D6860EB9CC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B647B98A-1D86-485B-9BD2-D6860EB9CC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B647B98A-1D86-485B-9BD2-D6860EB9CC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574EAFEC-57F6-4BF8-924F-57080C027F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574EAFEC-57F6-4BF8-924F-57080C027F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574EAFEC-57F6-4BF8-924F-57080C027F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574EAFEC-57F6-4BF8-924F-57080C027F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33D87C0-3D5B-474E-8035-10A1C6682848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33D87C0-3D5B-474E-8035-10A1C6682848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33D87C0-3D5B-474E-8035-10A1C6682848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33D87C0-3D5B-474E-8035-10A1C6682848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88113FC1-FA00-4E2E-B458-B51E2D851232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88113FC1-FA00-4E2E-B458-B51E2D851232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88113FC1-FA00-4E2E-B458-B51E2D851232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88113FC1-FA00-4E2E-B458-B51E2D851232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FFF4C2-E74B-4C41-83DF-44631A099B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FFF4C2-E74B-4C41-83DF-44631A099B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FFF4C2-E74B-4C41-83DF-44631A099B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FFF4C2-E74B-4C41-83DF-44631A099B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8157B22-90B2-4ECD-BA29-DFD0084676B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8157B22-90B2-4ECD-BA29-DFD0084676B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8157B22-90B2-4ECD-BA29-DFD0084676B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8157B22-90B2-4ECD-BA29-DFD0084676B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE0701A-22F8-4179-8020-E895DD92E1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE0701A-22F8-4179-8020-E895DD92E1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE0701A-22F8-4179-8020-E895DD92E1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE0701A-22F8-4179-8020-E895DD92E1B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3F3A44E-B541-4636-82D1-1C55DAC4DC91}
 	EndGlobalSection
 EndGlobal

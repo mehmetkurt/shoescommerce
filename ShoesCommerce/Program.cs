@@ -1,14 +1,11 @@
-using Microsoft.EntityFrameworkCore;
-using ShoesCommerce.Data;
+using ShoesCommerce.Web.Infrastructure.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddShoesCommerceMvc();
+builder.Services.AddShoesCommerceDataContext(builder.Configuration, "ShoesDb");
 
-builder.Services.AddDbContext<ShoesCommerceDbContext>(options=>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ShoesDb"));
-});
+builder.Services.RegisterCommonDependencies();
 
 var app = builder.Build();
 
@@ -21,14 +18,5 @@ app.MapControllerRoute(
 
 app.MapControllerRoute("ChangeLanguage", "dildegistir/{lang:length(5)}", new { controller = "Common", action = "ChangeLanguage" });
 
-app.MapControllerRoute(
-        name:"ProductDetail",
-        pattern: "ayakkabi/{id:required}",
-        defaults: new { controller = "Product", action = "Detail" });
-
-app.MapControllerRoute(
-        name: "CategoryDetail",
-        pattern: "kategori/{id?}",
-        defaults: new { controller = "Category", action = "List" });
 
 app.Run();
